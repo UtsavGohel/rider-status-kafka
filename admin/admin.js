@@ -1,4 +1,4 @@
-const { kafka } = require("./client");
+const { kafka } = require("../client/client");
 
 async function init() {
   const admin = kafka.admin();
